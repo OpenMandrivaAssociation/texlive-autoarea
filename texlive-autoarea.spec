@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/pictex/addon/autoarea
+# catalog-date 2008-08-17 11:40:59 +0200
+# catalog-license lppl
+# catalog-version 0.3a
 Name:		texlive-autoarea
 Version:	0.3a
 Release:	1
@@ -49,6 +55,7 @@ text and margins and for keeping the running text away.
 %doc %{_texmfdistdir}/doc/latex/autoarea/autodemo/autodemo-.pdf
 %doc %{_texmfdistdir}/doc/latex/autoarea/autodemo/autodemo-.tex
 %doc %{_texmfdistdir}/doc/latex/autoarea/autodemo/autodemo.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ text and margins and for keeping the running text away.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
