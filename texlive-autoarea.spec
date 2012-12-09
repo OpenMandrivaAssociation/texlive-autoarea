@@ -56,3 +56,18 @@ text and margins and for keeping the running text away.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-2
++ Revision: 749438
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
++ Revision: 717872
+- texlive-autoarea
+- texlive-autoarea
+- texlive-autoarea
+- texlive-autoarea
+- texlive-autoarea
+
