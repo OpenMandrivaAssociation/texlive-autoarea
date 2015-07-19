@@ -6,7 +6,7 @@
 # catalog-version 0.3a
 Name:		texlive-autoarea
 Version:	0.3a
-Release:	9
+Release:	10
 Summary:	Automatic computation of bounding boxes with PiCTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pictex/addon/autoarea
