@@ -3,7 +3,7 @@ Version:	59552
 Release:	2
 Summary:	Automatic computation of bounding boxes with PiCTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pictex/addon/autoarea
+URL:		https://www.ctan.org/tex-archive/graphics/pictex/addon/autoarea
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/autoarea.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/autoarea.doc.r%{version}.tar.xz
